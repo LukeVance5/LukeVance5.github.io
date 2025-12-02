@@ -1,0 +1,32 @@
+.sidebar-nav {
+  width: 220px; /* You can adjust this width */
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111827; /* A dark background */
+  display: flex;
+  flex-direction: column;
+  z-index: 10; /* Ensure it's above the main content */
+}
+
+.nav-header {
+  padding: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sidebar-nav a {
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #d1d5db; /* Light gray text */
+  display: block;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.sidebar-nav a:hover {
+  background-color: #1f2937;
+  color: #ffffff;
+}

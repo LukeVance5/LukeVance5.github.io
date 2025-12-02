@@ -1,0 +1,39 @@
+#ExperienceInternal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-start;
+}
+/* Job container */
+.job {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center whole block */
+  margin-bottom: 24px;
+}
+
+/* Title and body share the same width */
+.jobTitle,
+.jobBody {
+  width: 50%; /* set your shared width here */
+  max-width: 50%;
+}
+
+/* Left align the headers */
+.jobTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* left align children */
+  text-align: left;
+}
+
+.jobBody p {
+  width: 100%; /* fill the 50% container */
+  white-space: normal; /* allow wrapping normally */
+  margin: 0;
+}
+h2,
+h4 {
+  margin: 0 0 4px 0;
+}

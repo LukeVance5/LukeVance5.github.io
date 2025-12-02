@@ -1,0 +1,11 @@
+#aboutInternal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-start;
+  gap: 12rem;
+}
+
+.paragraph {
+  max-width: 50%;
+}

@@ -1,0 +1,37 @@
+#hero {
+  /* Set up the flex container */
+  display: flex;
+  flex-direction: column;
+
+  /* Center the items horizontally */
+  align-items: center;
+
+  /* Optional: Add some space between the elements */
+  gap: 1.5rem;
+  height: 100vh;
+  place-items: center;
+  align-self: flex-start;
+  justify-content: center;
+  text-align: center;
+}
+
+.statement {
+  /* Add any specific styles for your statement here */
+  font-size: 1.1rem;
+  text-align: center;
+}
+.img-container {
+  height: 25%;
+
+  border-radius: 5%;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+.responsive-img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
